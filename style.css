@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    height: 250vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+li{
+    list-style: none;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.game{
+    width: 100%;
+    height: 500vh;
+    animation: color 5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.games{
+    width: 90%;
+    height: 95%;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white    ;
+}
+
+.lan{
+    position: fixed;
+    z-index: 111111111 !important;
+    gap: 3rem;
+}
+
+.lan > a{
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes color {
+    0% {
+      background-color: #8CDCFE
+    }
+    
+    50%{
+        background-color: #3E61BE;
+
+    }
+
+    100% {
+        background-color: #8CDCFE;
+    }
+  }
+
+
+  @keyframes color2 {
+    0% {
+      background-color: #016089
+    }
+    
+    50%{
+        background-color: #3E61BE;
+
+    }
+
+    100% {
+        background-color: #016089;
+    }
+  }
+.gamecont{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.cont{
+    width: 20%;
+    height: 9%;
+    animation: color2 5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
+
+    /* background-color: mediumblue; */
+    /* #Iamwhitenegr */
+    /* #nerfpocosuibot; */
+}
+
+.cont:hover{
+    width: 21%;
+}
+
+.forimage{
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 900%;
+    height: 10000%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    /* position: absolute; */
+}
+
+.cont > a{
+    margin-top: 20vh;
+    z-index: 1111111 !important;
+    text-decoration: none;
+    color: white;
+}
+
+/* .b{
+    top: 273.4vh;
+}
+
+.b1{
+    top: 165vh;
+}
+
+.b2{
+    top: 219vh;
+}
+
+.b3{
+    top: 219vh;
+}
+/*  */
+
+
+::-webkit-scrollbar{
+    animation: color 5s linear infinite;
+    width: 1vh;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+/* Nkarner */
+
+.gz{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+
+.b3{
+    height: 25vh;
+    width: 36vh;
+    background-size: cover;
+    position: absolute;
+} 
+
+img{
+    width: 900%;
+    height: 10000%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    /* position: absolute; */
+}
+
+.bb{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+
+.bs{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+
+.b1{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+    margin-top: 2%;
+}
+
+.p13, .p14, .p15, .p16{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+
+.p15, .p16{
+    height: 34vh;
+    top: 207.5vh;
+}
+
+.p19, .b{
+    width: 15%;
+    height: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+
+.nkar{
+    width: 15%;
+    height: 31%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: absolute;
+}
